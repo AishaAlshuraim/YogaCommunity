@@ -1,0 +1,15 @@
+  <h1><%= @video.title %> Comments</h1>
+  <%= link_to "New video", new_video_path(:video_id => @video.id), { :class => "button waves-effect waves-light btn" } %>
+  <br><br>
+
+  <div class="row">
+    <% @video.comments.each do |comment| %>
+
+        <div class="card-panel grey lighten-2 col s4" style="margin: 10px">
+          <%= image_tag(@video.url, size: "100x100", alt: "video Image") %>
+          <br>
+          <%# <strong><%= link_to comment.content %></strong> %>
+          <em><%= comment.content %></em>
+        </div>
+    <% end %>
+  </div>

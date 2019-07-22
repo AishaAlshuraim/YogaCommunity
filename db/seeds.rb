@@ -9,9 +9,9 @@ Video.create(title: "Yoga Journey - Space", des: "
     It’s lucky Day! This 21 min integrative session is designed to bring a gentle opening to all parts of the body… and to your mind, too.
     Pro tip: use your breath.
     Today class is the ultimate brain and body yoga session. It is through this type of practice that we begin to settle into the experience of our yoga, instead of residing in our constant ambition to ‘get it right.’
-    This is also the perfect elixir for our inevitably strong and ever-surfacing desire to get instant results.", url: "https://youtu.be/an4YPhQKrw0")
+    This is also the perfect elixir for our inevitably strong and ever-surfacing desire to get instant results.", url:"https://yogawithadriene.com/wp-content/uploads/2019/01/dedicate-day-13-space-768x432.jpg")
     
-    
+   
     
     Video.create(title: "Yoga Journey - Light", des: "Today’s practice is about incorporating the total body.The whole package.
     Not just as a work out, but as a means of exploration for something much more.
@@ -20,9 +20,9 @@ Video.create(title: "Yoga Journey - Space", des: "
     The hardest part is getting there.
     Resistance is normal. Extraordinary humans continue to show up.
     Overcome your resistance so that you can uncover that powerful light that is unique to you.
-    Your purpose.
+Your purpose.
     To shine.
-    Namaste.", url:"https://youtu.be/3hPV48f--SY ")
+    Namaste.", url:"https://yogawithadriene.com/wp-content/uploads/2019/01/dedicate-day-21-light-768x432.jpg")
     
     
     
@@ -39,4 +39,9 @@ Video.create(title: "Yoga Journey - Space", des: "
     Chant it with me…
     Self Love Now!
     See you on the mat!
-    Namaste.", url: "https://youtu.be/ClsOGe8vj9o ")
+    Namaste.", url: "https://yogawithadriene.com/wp-content/uploads/2019/01/dedicate-day-18-love-768x432.jpg")
+
+
+    Comment.create(video_id: 1, user_id: 1, content: "Thank you, it’s help me a lot")
+Comment.create(video_id: 1, user_id: 2, content: "Thank you so much!!  I’m loving it")
+Comment.create(video_id: 3, user_id: 3, content: "Thanks for the reminder to love myself")

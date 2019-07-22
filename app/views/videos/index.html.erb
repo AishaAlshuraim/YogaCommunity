@@ -1,0 +1,17 @@
+<h1>All the Videos </h1>
+
+<table class="striped bordered">
+  <tr>
+    <th>Title</th>
+    <th>Video</th>
+    <th>Description</th>
+  </tr>
+
+  <% @videos.each do |video| %>
+      <tr>
+        <td><%= link_to video.title, video_path(video)  %></td>
+        <td><<%= image_tag(video.url, size: "100x100", alt: "Video Image")%>></td>
+        <td><%= video.des %></td>
+      </tr>
+  <% end %>
+</table>
