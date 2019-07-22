@@ -1,4 +1,6 @@
   <h1><%= @video.title %> Comments</h1>
+  <%= link_to "New comment", new_comment_path(:video_id => @video.id), { :class => "button waves-effect waves-light btn" } %>
+
   <%= link_to "New video", new_video_path(:video_id => @video.id), { :class => "button waves-effect waves-light btn" } %>
   <br><br>
 
