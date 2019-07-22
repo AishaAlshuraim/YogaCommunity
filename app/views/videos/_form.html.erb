@@ -1,0 +1,16 @@
+<%= form_for @video do |f| %>
+  <div class="input-field col s6">
+  	<%= f.label :title, 'Title'%>
+  	<%= f.text_field :title%>
+  </div>
+  <div class="input-field col s6">
+  	<%= f.label :des, 'Description' %>
+  	<%= f.text_field :des %>
+  </div>
+  <div class="input-field col s6">
+  	<%= f.label :url, 'URL' %>
+  	<%= f.text_field :url %>
+  </div>
+ 
+  <%= f.submit "Submit", :class => "btn waves-effect waves-light" %>
+<% end %>

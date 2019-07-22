@@ -42,6 +42,6 @@ Your purpose.
     Namaste.", url: "https://yogawithadriene.com/wp-content/uploads/2019/01/dedicate-day-18-love-768x432.jpg")
 
 
-    Comment.create(video_id: 1, user_id: 1, content: "Thank you, it’s help me a lot")
-Comment.create(video_id: 1, user_id: 2, content: "Thank you so much!!  I’m loving it")
-Comment.create(video_id: 3, user_id: 3, content: "Thanks for the reminder to love myself")
+    Comment.create!(video_id: 1, user_id: 1, content: "Thank you, it’s help me a lot")
+Comment.create!(video_id: 1, user_id: 2, content: "Thank you so much!!  I’m loving it")
+Comment.create!(video_id: 3, user_id: 3, content: "Thanks for the reminder to love myself")
