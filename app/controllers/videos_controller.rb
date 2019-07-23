@@ -29,13 +29,18 @@ class VideosController < ApplicationController
     end
 
     def update
+        if current_user.admin
         video = Video.find(params[:id])
         video.update(params.require(:video).permit(:title, :des, :url)) 
         redirect_to video
+    else
+        redirect_to videos_path, :notice => "You are not admin"
+    end
+        
     end
     
     def destroy
-    if current_user.admin
+        if current_user.admin
         Video.find(params[:id]).destroy
         redirect_to videos_path
     else
