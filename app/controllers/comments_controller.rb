@@ -8,6 +8,6 @@ def create
     puts params
     video = Video.find(params[:comment][:video_id])
     Comment.create(params.require(:comment).permit(:content)
-    redirect_to video
+    redirect_to video_path
   end
 end
