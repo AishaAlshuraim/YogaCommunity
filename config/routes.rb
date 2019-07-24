@@ -4,8 +4,7 @@ Rails.application.routes.draw do
      root "videos#index"
     get "videos", to: "videos#index"
     get 'pages/private_page'
-    # get "videos/:id", to: "videos#show", as: :video
-    # get "videos/new", to: "videos#new"
+ 
 
   resources :videos, :users , :comments
  

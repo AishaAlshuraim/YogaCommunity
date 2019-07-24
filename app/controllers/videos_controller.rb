@@ -16,7 +16,7 @@ class VideosController < ApplicationController
     end
     
     def create
-            Video.create(params.require(:video).permit(:title, :des, :url))
+            Video.create(params.require(:video).permit(:title, :des, :url, :video_url))
             redirect_to videos_path     
     end
     
@@ -31,7 +31,7 @@ class VideosController < ApplicationController
     def update
         if current_user.admin
         video = Video.find(params[:id])
-        video.update(params.require(:video).permit(:title, :des, :url)) 
+        video.update(params.require(:video).permit(:title, :des, :url, :video_url)) 
         redirect_to video
     else
         redirect_to videos_path, :notice => "You are not admin"
