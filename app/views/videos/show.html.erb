@@ -1,18 +1,16 @@
-  <h1><%= @video.title %> Comments</h1>
-  <%= link_to "New comment", new_comment_path(:video_id => @video.id), { :class => "button waves-effect waves-light btn" } %>
+  <h1><%= @video.title %> Video</h1>
 
   <%# <%= link_to "New video", new_video_path(:video_id => @video.id), { :class => "button waves-effect waves-light btn" } %>
-  <%# <br><br> %> %>
+  <%# <br><br> %> 
         <div><%= raw  (@video.video_url)%> </div> 
+  <%= link_to "New comment", new_comment_path(:video_id => @video.id), { :class => "button waves-effect waves-light btn" } %>
 
   <div class="row">
     <% @video.comments.each do |comment| %>
 
-        <div class="card-panel grey lighten-2 col s4" style="margin: 10px">
-
-          <br>
-          <%# <strong><%= link_to comment.content %></strong> %>
-          <em><%= comment.content %></em>
+         <div> <p><%= comment.content %></p> </div>
         </div>
+        <br>
     <% end %>
+      <br>
   </div>
