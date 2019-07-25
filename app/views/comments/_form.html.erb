@@ -1,10 +1,12 @@
 <%= form_for @comment do |f| %>
   <%= f.hidden_field :video_id, :value => @video.id %>
   <div class="input-field col s6">
-  	<%= f.label :content, 'Content' %>
-  	<%= f.text_field :content %>
+  	<%= f.label :content, 'Comment' %>
+  <div>	<%= f.text_area :content %>
   </div>
 <%# <%if @video%>
-<%# <%= form.hidden_field :video_id, :value => @video.id%> %> %>
-<%# <%end%>  <%= f.submit "Submit", :class => "btn waves-effect waves-light" %> %>
+<%# <%= form.hidden_field :video_id, :value => @video.id%> 
+<%# <%end%>  <%= f.submit "Submit", :class => "btn waves-effect waves-light" %> 
 <% end %>
+
+</div>

@@ -1,24 +1,50 @@
-# README
+# ![Yoga](yogi.png) Yoga Community App
+I created a full stack application using Ruby on Rails and Postgresql for Yoga Community App. I believe that yoga is for everyone and I want all practitioners from beginners to masters to share the journey of yoga and enJOY it with all people around the world.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## - User sign up
 
-* Ruby version
+![](Sign_up.png)
 
-* System dependencies
+## - User log in
 
-* Configuration
+![](Login.png)
 
-* Database creation
 
-* Database initialization
+## - Admin create a video
 
-* How to run the test suite
+![](New_video.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+## - Admin create a video
 
-* Deployment instructions
+![](New_video.png)
+![](Added_video.png)
 
-* ...
+
+## - Admin edit a video
+
+![](Edit_video.png)
+![](Edited_video.png)
+
+## - User view all videos
+
+![](show_videos.png)
+
+## - User view single video
+
+![](View_video.png)
+
+## - User not be able to edit or delete or create videos 
+
+![](Admin.png)
+
+## - User add comment 
+
+![](Add_comment.png)
+
+
+## Author
+
+Aesha Alshuraim – aishaalshuraim@gmail.com
+
+

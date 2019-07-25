@@ -9,7 +9,8 @@ Video.create(title: "Yoga Journey - Space", des: "
     It’s lucky Day! This 21 min integrative session is designed to bring a gentle opening to all parts of the body… and to your mind, too.
     Pro tip: use your breath.
     Today class is the ultimate brain and body yoga session. It is through this type of practice that we begin to settle into the experience of our yoga, instead of residing in our constant ambition to ‘get it right.’
-    This is also the perfect elixir for our inevitably strong and ever-surfacing desire to get instant results.", url:"https://yogawithadriene.com/wp-content/uploads/2019/01/dedicate-day-13-space-768x432.jpg")
+    This is also the perfect elixir for our inevitably strong and ever-surfacing desire to get instant results.", url:"https://yogawithadriene.com/wp-content/uploads/2019/01/dedicate-day-13-space-768x432.jpg"
+)
     
    
     
