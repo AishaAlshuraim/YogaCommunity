@@ -47,7 +47,7 @@ I created a full stack application using Ruby on Rails and Postgresql for Yoga C
 
 Aesha Alshuraim – aishaalshuraim@gmail.com
 
-##Project Link:
+## Project Link:
 
 https://yoga-community.herokuapp.com/
 
